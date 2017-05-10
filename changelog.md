@@ -1,5 +1,11 @@
 # Change Log
 
+## Version 1.0.0 (May 10, 2017)
+
+Android updates:
+
+* Update of Estimote Android SDK to version 1.0.3
+
 ## Version 0.8.0 (Jul 25, 2015)
 
 iOS updates:

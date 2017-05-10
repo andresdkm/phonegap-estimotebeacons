@@ -1,8 +1,21 @@
-# This plugin is no longer maintained - new maintainer is welcome!
+## What's new?
 
-Sadly we don't have the time to maintain this plugin. We recommend using the iBeacon plugin by Peter Metz, which works nicely with Estimote beacons. This plugin can be found here: https://github.com/petermetz/cordova-plugin-ibeacon
+The Android part of the plugin was updated:
 
-If you are interested in taking over maintanance/ownership of the plugin, please contact us at info@evothings.com
+VERSION 1.0.1:
+    - Ranging OK,
+    - SecureRanging OK using a BeaconRegion (and not a SecureBeaconRegion),
+    - Monitoring NOT TESTED,
+    - Discovery NOT WORKING,
+    - Connection NOT WORKING (because of no connectivity packets).
+
+VERSION 1.0.2 & 1.0.3:
+    - Ranging NOT WORKING,
+    - Monitoring NOT TESTED,
+    - Discovery OK,
+    - Connection OK.
+
+See https://github.com/Estimote/Android-SDK/issues/211.
 
 ## About the Estimote Cordova/PhoneGap plugin
 
