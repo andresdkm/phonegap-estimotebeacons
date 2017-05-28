@@ -22,13 +22,16 @@
 		<config-file target="AndroidManifest.xml" parent="/manifest">
 			<uses-permission android:name="android.permission.BLUETOOTH" />
 			<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+			<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+			<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+			<uses-permission android:name="android.permission.INTERNET" />
 		</config-file>
 		<config-file target="AndroidManifest.xml" parent="/manifest/application">
 			<service android:name="com.estimote.sdk.service.BeaconService" android:exported="false"/>
 		</config-file>
 
 		<source-file src="plugin/src/android/EstimoteBeacons.java" target-dir="src/com/evothings" />
-        <framework src="com.estimote:sdk:1.0.1:release@aar" />
+        <framework src="com.estimote:sdk:1.0.3:release@aar" />
 	</platform>
 
 	<platform name="ios">
